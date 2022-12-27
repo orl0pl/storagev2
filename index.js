@@ -65,7 +65,7 @@ app.get('/api/:key/getfromuiid/:uuid', (req, res) => {
   }
   res.send({ result: result, type: type })
 })
-app.get('/healtz', (req, res) => {
+app.get('/healthz', (req, res) => {
   res.send(200)
 })
 app.listen(port, () => {
